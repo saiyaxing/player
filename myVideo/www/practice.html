@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+
+</body>
+<script>
+    var anObject = {};
+    anObject.aProperty = "Property of object";
+    anObject.aMethod = function(){alert("Method of object")};
+//    alert(anObject['aProperty']);
+    /*遍历对象*/
+    for(var s in anObject){
+        alert(s + 'is a' + typeof (anObject[s]));
+    }
+
+</script>
+</html>
